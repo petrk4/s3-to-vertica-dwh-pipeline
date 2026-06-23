@@ -8,8 +8,6 @@ import boto3
 
 
 def download_from_s3(filename : str):
-    AWS_ACCESS_KEY_ID = "YCAJEiyNFq4wiOe_eMCMCXmQP"
-    AWS_SECRET_ACCESS_KEY = "YCP1e96y4QI8OmcB4Eaf4q0nMHwhmtvGbDTgBeqS"
 
     session = boto3.session.Session()
     s3_client = session.client(
